@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/34a748a788.js" crossorigin="anonymous"></script>
+    <title>WhatsApp</title>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar"> 
+            <div class="superior-bar">
+                <img  class="user-photo" src="img/avatar.png">
+                <div class="auxicons-toolbar-container">
+                    <i class="fa-solid fa-users"></i>
+                    <i class="fas fa-spinner"></i>
+                    <i class="fa-sharp fa-solid fa-message"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+            </div>
+            <div class="search-container">
+                <i id="contacts-search" class="fas fa-search"></i>
+                <input type="text" name="search" id="search" placeholder="Procurar ou começar uma nova conversa">
+            </div>
+            <div class="notification-container">
+                <i class="fas fa-bell-slash"></i>
+                <p class="receive-notification"> Receba notificações de novas mensagens</p>
+                <p class="activate-notification"> Ativar notificações na área de trabalho
+                    <i class="fas fa-angle-right"></i>
+                </p>
+            </div>
+            <div class="contacts-container">
+                <div class="contact-box active-chat">
+                    <img class="user-photo"  src="img/avatar.png">
+                    <div class="user-info">
+                        <p class="user-name">Darius</p>
+                        <p class="user-messagepreview">
+                            <i class="fas fa-check-double"></i>
+                            Lorem ipsum dolor. 
+                        </p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time"> 8:30</p>
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <img class="user-photo"  src="img/avatar.png">
+                    <div class="user-info">
+                        <p class="user-name">Julius</p>
+                        <p class="user-messagepreview">
+                            Lorem ipsum dolor sit amet.
+                        </p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time"> 7:33</p>
+                        <p class="message-pending">2</p>
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <img class="user-photo"  src="img/avatar.png">
+                    <div class="user-info">
+                        <p class="user-name">Derick</p>
+                        <p class="user-messagepreview">
+                            Lorem ipsum dolor sit amet.
+                        </p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time"> 5:14</p>
+                        <p class="message-pending">5</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main class="chat-container">
+            <nav class="chat-navbar">
+                <div class="contactinfo-container">
+                    <img  class="user-photo" src="img/avatar.png">
+                    <p class="user-name">Darius</p>
+                </div>
+                <ul class="chattools-container">
+                    <li><i class="fas fa-search"></i></li>
+                    <li><i class="fas fa-ellipsis-v"></i></li>
+                </ul>
+            </nav>
+            <div class="messages-container">
+                <div class="background-image"></div>
+                <div class="chat-messages">
+                   <p class="guest-message">Lorem ipsum dolor.</p>
+                   <p class="user-message">Lorem ipsum dolor.</p>
+                </div>
+            </div>
+            <div class="sendmessage-container">
+                <i class="far fa-grin"></i>
+                <i class="fas fa-paperclip"></i>
+                <input 
+                id="chatmessage" 
+                type="text" 
+                name="message" 
+                class="userinput" 
+                placeholder="Digite uma mensagem">
+                <i class="fas fa-microphone"></i>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
